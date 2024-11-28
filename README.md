@@ -16,7 +16,7 @@ Certifique-se de ter as seguintes ferramentas instaladas no ambiente de desenvol
    ```
 
 3. **TypeScript**  
-   Instale globalmente no ambiente de desenvolvimento com o comando:  
+   Instale typescript:  
    ```bash
    npm install typescript --save-dev
    ```
