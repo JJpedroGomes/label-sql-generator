@@ -1,40 +1,92 @@
-Pré-requisitos
-Certifique-se de ter as seguintes ferramentas instaladas:
+Salve o conteúdo abaixo em um arquivo chamado `README.md` no seu repositório:
 
-Node.js (versão 14 ou superior)
-Gerenciador de pacotes NPM (já incluído com o Node.js)
-TypeScript (npm install -g typescript)
+```markdown
+# Gerador de Script SQL para Variáveis de Fluxo
 
-Certifique-se de ter um arquivo JSON com os dados de entrada. O formato do JSON deve ser semelhante ao exemplo abaixo:
+## Pré-requisitos
 
-json
-Copiar código
-[
-    {
-        "tarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS SEJUD",
-        "variavel": "emitir_alvara_eletronico",
-        "fluxo": "Análise de SEJUD",
-        "label": "Emitir alvará eletrônico - SAE"
-    },
-    {
-        "tarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
-        "variavel": "emitir_boleto_eletronico",
-        "fluxo": "Análise de SEJUD",
-        "label": "Emitir boleto eletrônico - SAE"
-    }
-]
+Certifique-se de ter as seguintes ferramentas instaladas no ambiente de desenvolvimento:
 
-Como executar o projeto
-1. Compilar o código TypeScript para JavaScript
-Execute o seguinte comando para compilar o arquivo TypeScript:
+1. **Node.js** (versão 14 ou superior)  
+   [Faça o download do Node.js aqui](https://nodejs.org/).
 
+2. **Gerenciador de pacotes NPM**  
+   O NPM já vem incluído com o Node.js. Para verificar se está instalado, execute:  
+   ```bash
+   node -v
+   npm -v
+   ```
+
+3. **TypeScript**  
+   Instale globalmente no ambiente de desenvolvimento com o comando:  
+   ```bash
+   npm install typescript --save-dev
+   ```
+
+4. **Arquivo JSON de entrada**  
+   Prepare um arquivo JSON com os dados de entrada no seguinte formato:
+
+   ```json
+   [
+       {
+           "tarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS SEJUD",
+           "variavel": "emitir_alvara_eletronico",
+           "fluxo": "Análise de SEJUD",
+           "label": "Emitir alvará eletrônico - SAE"
+       },
+       {
+           "tarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+           "variavel": "emitir_boleto_eletronico",
+           "fluxo": "Análise de SEJUD",
+           "label": "Emitir boleto eletrônico - SAE"
+       }
+   ]
+   ```
+
+## Como executar o projeto
+
+### 1. Instalar as dependências do projeto
+
+Após clonar o repositório, entre na pasta do projeto e execute:
+
+```bash
+npm install
+```
+
+### 2. Compilar o código TypeScript para JavaScript
+
+Compile o código TypeScript para JavaScript com o seguinte comando:
+
+```bash
 npx tsc src/app.ts
+```
 
-2. Executar o gerador
-Para rodar o gerador, use o comando abaixo:
-O app ja separa para voce o script de insert e validação, na hora de informar o nome do script, passe apenas: 01_1G_criar_label_nova_tarefa
+### 3. Executar o gerador
 
+Para rodar o gerador, use o seguinte comando:  
+
+```bash
 node src/app.js <caminho_para_seu_json> <nome_do_arquivo_sql>
+```
 
-Exemplo:
+- **`<caminho_para_seu_json>`**: Caminho para o arquivo JSON de entrada.  
+- **`<nome_do_arquivo_sql>`**: Nome base do arquivo SQL que será gerado.
+
+O aplicativo separará automaticamente os scripts de *insert* e validação.  
+
+#### Exemplo:
+
+```bash
 node src/app.js input/input.json 01_1G_criar_label_fluxo_secretaria
+```
+
+## Observações
+
+- Certifique-se de que o arquivo JSON esteja no formato correto.  
+- O TypeScript deve estar configurado para desenvolvimento local. Caso encontre problemas, verifique as versões instaladas com:  
+  ```bash
+  tsc -v
+  node -v
+  npm -v
+  ```
+```
