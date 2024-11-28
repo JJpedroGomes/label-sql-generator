@@ -1,0 +1,172 @@
+[
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "avsMsgOperacao",
+    "labelVariavel": "#{tramitacaoProcessualService.recuperaVariavel(''pje:tjce:fluxo:geral:msgOperacao'')}"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "aguardar_laudo_tecnico",
+    "labelVariavel": "Aguardar laudo técnico"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "aguardar_decurso_prazo",
+    "labelVariavel": "Aguardar decurso de prazo"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "aguardar_decurso_prazo_recurso",
+    "labelVariavel": "Aguardar decurso de prazo de recurso"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "apensar",
+    "labelVariavel": "Apensar processo"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "efetuar_calculo",
+    "labelVariavel": "Elaborar cálculos"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "tratar_sisbajud",
+    "labelVariavel": "Minutar Bloqueio/Desbloqueio - SISBAJUD"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "certificar_decurso_prazo",
+    "labelVariavel": "Certificar decurso de prazo"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "certificar_transito_julgado",
+    "labelVariavel": "Certificar trânsito em julgado"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "citar_intimar",
+    "labelVariavel": "Citar/Intimar"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "controle_prec_rpv",
+    "labelVariavel": "Controlar Precatório/RPV"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "gerenciar_audiencia",
+    "labelVariavel": "Gerenciar audiência"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "gerenciar_pericia",
+    "labelVariavel": "Gerenciar Perícia"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "expedir_alvara",
+    "labelVariavel": "Expedir alvará"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "expedir_carta_precatoria",
+    "labelVariavel": "Expedir carta precatória/rogatória"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "expedir_oficio",
+    "labelVariavel": "Expedir ofício"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "expedir_mandado",
+    "labelVariavel": "Expedir mandado"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "expedir_mandado_cartorio",
+    "labelVariavel": "Expedir mandado de Cartório"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "expedir_outros_documentos",
+    "labelVariavel": "Expedir outros documentos"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "expedir_ato_ordinatorio",
+    "labelVariavel": "Expedir ato ordinatório"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "expedir_edital",
+    "labelVariavel": "Expedir edital"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "consultar_infojud_infoseg",
+    "labelVariavel": "Consultar INFOJUD/INFOSEG"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "publicar_dje",
+    "labelVariavel": "Elaborar publicação no DJE"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "consultar_renajud",
+    "labelVariavel": "Consultar RENAJUD"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "controle_serasajud",
+    "labelVariavel": "Consultar SERASAJUD"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - VERIFICAR PROCESSOS SEJUD",
+    "nomeVariavel": "aguardar_cumprimento_diligencia",
+    "labelVariavel": "Aguardar cumprimento de diligência"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - PROCESSAR DOCUMENTOS SEJUD",
+    "nomeVariavel": "registrar_fechamento_expediente",
+    "labelVariavel": "Registrar fechamento manual de expediente"
+  },
+  {
+    "nomeFluxo": "Análise de Secretaria - Sucessões",
+    "nomeTarefa": "[Sec] - Outras Diligências - ANALISAR PROCESSOS",
+    "nomeVariavel": "aguarda_julgamento_conflito_competencia",
+    "labelVariavel": "Aguardar julgamento de conflito de competência"
+  }
+]
+
+  
