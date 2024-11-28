@@ -1,5 +1,3 @@
-Salve o conteúdo abaixo em um arquivo chamado `README.md` no seu repositório:
-
 ```markdown
 # Gerador de Script SQL para Variáveis de Fluxo
 
